@@ -31,7 +31,7 @@ while response == "y":
     elif choice == computer:
         print("It's a tie")
     elif(choice != computer):
-        print("Keep going")
+        print("You lose")
     print("-----------------------------")
     
     response = input("Do you want to play again? (y/n): " ) 
