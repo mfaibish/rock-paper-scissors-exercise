@@ -20,6 +20,7 @@ computer = random.choice(options) #computer selects option
 print("The computer chose:", computer)
 print("-----------------------------")
 
+#logic to return results
 if choice == "rock" and computer == "scissors":
     print("You win!")
 elif choice == "paper" and computer == "rock":
@@ -28,6 +29,8 @@ elif choice == "scissors" and computer == "paper":
     print("You win!")
 elif choice == computer:
     print("It's a tie")
+elif(choice != computer):
+    print("Keep going")
     
 print("-----------------------------")
 print("Thanks for playing! Please play again")
