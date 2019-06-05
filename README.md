@@ -11,3 +11,5 @@ Setup conda environment and install pytest package
 user is prompted to select rock, paper or scissors
 
 system will report results of the game
+
+to run enter python game.py
