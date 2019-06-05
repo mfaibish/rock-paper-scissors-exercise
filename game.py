@@ -8,19 +8,19 @@ print("-----------------------------")
 
 options = ["rock", "paper", "scissors"]
 
-choice = input("Let's play a game! Select rock, paper or scissors: ") #user input
+choice = input("Let's play a game! Select rock, paper or scissors: ") # user input
 
 if choice in options:
     print("-----------------------------")
     print ("You chose:", choice)   
 else:
-    raise ValueError("OOPS - please type 'rock', 'paper' or 'scissors'.") #error checking
+    raise ValueError("OOPS - please type 'rock', 'paper' or 'scissors'.") # error checking
 
-computer = random.choice(options) #computer selects option
+computer = random.choice(options) # computer selects option
 print("The computer chose:", computer)
 print("-----------------------------")
 
-#logic to return results
+# logic to return results
 if choice == "rock" and computer == "scissors":
     print("You win!")
 elif choice == "paper" and computer == "rock":
