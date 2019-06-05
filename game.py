@@ -15,9 +15,9 @@ while response == "y":
         print ("You chose:", choice)   
     else:
         raise ValueError("OOPS - please type 'rock', 'paper' or 'scissors'.") # error checking
-    
-    computer = random.choice(options) # computer selects option
-    
+
+# computer selects option    
+    computer = random.choice(options) 
     print("The computer chose:", computer)
     print("-----------------------------")
 
