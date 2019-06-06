@@ -62,25 +62,8 @@ if __name__ == "__main__":
     # same selections is a tie
     #
     # first attribute represents the user, second represents the computer
-    winners = {
-        "rock":{
-            "rock": None,
-            "paper": "paper",
-            "scissors": "rock",
-        },
-        "paper":{
-            "rock": "paper",
-            "paper": None,
-            "scissors": "scissors",
-        },
-        "scissors":{
-            "rock": "rock",
-            "paper": "scissors",
-            "scissors": None,
-        },
-    }
-
-    winning_choice = winners[user_choice][computer_choice]
+    
+    winning_choice = determine_winner(user_choice, computer_choice)
 
     # DISPLAY FINAL OUTPUTS / OUTCOMES
 
